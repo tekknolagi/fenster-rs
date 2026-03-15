@@ -1,5 +1,5 @@
 [package]
-name = "fenster"
+name = "fenster-rs"
 version = "0.1.0"
 edition = "2024"
 authors = ["felixmaker"]
@@ -8,6 +8,10 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/felixmaker/fenster-rs"
 categories = ["gui"]
+
+[lib]
+name = "fenster"
+path = "src/lib.rs"
 
 [dependencies]
 fenster-sys = { path = "../fenster-sys", version = "=0.1" }
