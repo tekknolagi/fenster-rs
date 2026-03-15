@@ -1,0 +1,16 @@
+[package]
+name = "fenster-sys"
+version = "0.1.0"
+edition = "2024"
+authors = ["felixmaker"]
+description = "Rust raw bindings to zserge/fenster"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/felixmaker/fenster-rs"
+exclude = ["fenster/.*", "fenster/*.mod", "fenster/*.go", "fenster/examples"]
+categories = ["gui"]
+
+[dependencies]
+
+[build-dependencies]
+cc = "1.0"

@@ -1,10 +1,8 @@
-# fenster-rs
+# fenster
 
-Rust bindings to zserge/fenster, one of the most minimal cross-platform GUI library.
+Rust bindings to zserge/fenster, one of the most minimal cross-platform GUI library. 
 
-See [fenster](https://github.com/zserge/fenster) for more information.
-
-## Example
+## Examples
 
 ```rust
 use fenster::*;
@@ -23,7 +21,3 @@ fn main() {
     }
 }
 ```
-
-## License
-
-Code is distributed under MIT license, feel free to use it in your proprietary projects as well.

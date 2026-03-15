@@ -1,0 +1,3 @@
+[submodule "fenster-sys/fenster"]
+	path = fenster-sys/fenster
+	url = https://github.com/zserge/fenster.git

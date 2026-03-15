@@ -1,0 +1,13 @@
+[package]
+name = "fenster"
+version = "0.1.0"
+edition = "2024"
+authors = ["felixmaker"]
+description = "Rust bindings to zserge/fenster"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/felixmaker/fenster-rs"
+categories = ["gui"]
+
+[dependencies]
+fenster-sys = { path = "../fenster-sys", version = "=0.1" }
