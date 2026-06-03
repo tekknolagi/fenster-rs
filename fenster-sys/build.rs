@@ -5,4 +5,5 @@ fn main() {
         .compile("fenster");
 
     println!("cargo::rerun-if-changed=src/wrapper.c");
+    println!("cargo::rustc-link-lib=X11");
 }
